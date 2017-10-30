@@ -14,7 +14,6 @@ X_rec = zeros(size(Z, 1), size(U, 1));
 %               onto the original space using the top K eigenvectors in U.
 %
 %               For the i-th example Z(i,:), the (approximate)
-%               recovered data for dimension j is given as follows:
 %                    v = Z(i, :)';
 %                    recovered_j = v' * U(j, 1:K)';
 %
